@@ -1,5 +1,5 @@
 # DepC  
 
-Ramin, please add usage instructions for the code. Also, upload a GIF or image to visually demonstrate what the code does.  
+This is the executable version of the modified code, built upon the *numSCAL* code originally developed by Ahmed Hamdi Boujelben (2017) at Heriot-Watt University. 
 
-This is the executable version of the modified code, built upon the *numSCAL* framework originally developed by ...  
+New features have been added into the code (in C++) to model trapping and remobilization of residual CO2 under pressure depletion conditions.
