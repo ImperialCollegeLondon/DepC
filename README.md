@@ -9,9 +9,7 @@ This is the executable version of the modified code, built upon the *numSCAL* co
 # Input data
 [Cycles]
 injectionSimulation=false  ---> since no further injection is performed
-
 diffusionSimulation=true   ---> Default case
-
 growthSimulation=true      ---> Default case
 migrationSimulation=true   ---> Default case
 threePhaseDepletion=false  ---> Default case: current version do not take this into account
