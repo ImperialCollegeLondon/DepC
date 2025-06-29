@@ -7,6 +7,12 @@ This is the executable version of the modified code, built upon the *numSCAL* co
 
 
 # Features
+The model accounts for the following processes at each pressure increment:
+-	Diffusion through the aqueous phase driven by concentration gradients and differences in capillary pressure (i.e., Ostwald ripening).
+-	Growth or expansion of gas clusters in a capillary-controlled manner.
+-	Migration of gas clusters when buoyancy forces are large enough to overcome local capillary forces.
+
+Results are written in "Results" folder. VTK files and occupancy are also written in the same folder. 
 
 
 # Input data
