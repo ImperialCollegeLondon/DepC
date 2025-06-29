@@ -1,4 +1,4 @@
-# DepC: An Open Source Pore-Network Model for Studying Trapping and Remobilization of CO2 during Geological CO2 Storage
+# DepC: An Open Source Pore-Network Model for Studying Trapping and Remobilization of CO2 during Geological Storage
 
 This is the executable version of the modified code, built upon the *numSCAL* code originally developed by Ahmed Hamdi Boujelben (2017) at Heriot-Watt University. 
 
