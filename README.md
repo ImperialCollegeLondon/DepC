@@ -53,14 +53,14 @@ This is the executable version of the modified code, built upon the *numSCAL* co
 
 | Parameter                   | Value         | Notes |
 |----------------------------|---------------|-------|
-| pressureDependentDataPath  | Pressure Data/|       |
+| pressureDependentDataPath  | Pressure Data/| Change accordingly      |
 | waterDiffusionCoef         | 3.5           |       |
 | overrideWithFixedData      | false         |       |
 | initialWaterSaturation     | 0             |       |
 | initialTemperature         | 333.15        | in Kelvin |
-| waterDistribution          | 1             |       |
-| IrreducibleWaterSaturation | 0.0           |       |
-| SwirrD                     | 0.0           |       |
+| waterDistribution          | 1             | Not in use      |
+| IrreducibleWaterSaturation | 0.0           | For drainage     |
+| SwirrD                     | 0.0           | For depletion     |
 
 ### [Misc]
 
@@ -92,7 +92,7 @@ This is the executable version of the modified code, built upon the *numSCAL* co
 | noSnapOff                        | false     |       |
 | extractData                      | true      |       |
 | filmConductanceResistivity       | 100       |       |
-| MW                               | 0.044     | Molar mass, likely kg/mol |
+| MW                               | 0.044     | Molar mass, kg/mol |
 | equilibriumThreshold             | 0.001     |       |
 | thresholdCount                   | 100       |       |
 
@@ -100,13 +100,13 @@ This is the executable version of the modified code, built upon the *numSCAL* co
 
 | Parameter                | Value   | Notes |
 |-------------------------|---------|-------|
-| wettabilityFlag         | 1       |       |
+| wettabilityFlag         | 1       | Water wet, 6 for mixed wet (in future release)      |
 | minWaterWetTheta        | 40      | degrees |
 | maxWaterWetTheta        | 40      | degrees |
 | minGasWetTheta          | 120     | degrees |
 | maxGasWetTheta          | 120     | degrees |
-| gasWetFraction          | 0.5     |       |
-| wettabilityDistributionFlag | uniform |   |
+| gasWetFraction          | 0.5     | For mixed wet      |
+| wettabilityDistributionFlag | uniform | Or normal   |
 | normalWetMu             | 45      | degrees |
 | normalWetSigma          | 5       | degrees |
 | minRecedingTheta        | 0       | degrees |
@@ -118,7 +118,7 @@ This is the executable version of the modified code, built upon the *numSCAL* co
 | dynamicWettability      | false   |       |
 
 ### [NetworkGeneration_Geometry]
-
+This is for generating networks
 | Parameter                  | Value  | Notes |
 |---------------------------|--------|-------|
 | Nx                        | 200    |       |
