@@ -14,7 +14,10 @@ The model accounts for the following processes at each pressure increment:
 
 # Use
 To run the simulation, please use the exe file numSCAL.exe
-Results are written in "Results" folder. VTK files and occupancy are also written in the same folder. 
+Results are written in "Results" folder. VTK files and occupancy are also written in the same folder.
+
+# Source code
+We aim to publicly publish the source code in near future.
 
 # Input data
 ### [Cycles]
