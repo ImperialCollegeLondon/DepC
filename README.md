@@ -12,8 +12,9 @@ The model accounts for the following processes at each pressure increment:
 -	Growth or expansion of gas clusters in a capillary-controlled manner.
 -	Migration of gas clusters when buoyancy forces are large enough to overcome local capillary forces.
 
+# Use
+To run the simulation, please use the exe file numSCAL.exe
 Results are written in "Results" folder. VTK files and occupancy are also written in the same folder. 
-
 
 # Input data
 ### [Cycles]
